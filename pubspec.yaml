@@ -23,6 +23,9 @@ dependencies:
   # Snack Bar
   toastification: ^3.0.2
 
+  #path 
+  path: ^1.9.1
+
   # State Management
   flutter_bloc: ^9.1.1
   bloc: ^9.0.0
