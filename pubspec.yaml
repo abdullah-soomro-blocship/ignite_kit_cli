@@ -1,7 +1,7 @@
 name: ignite_kit_cli
 description: Custom Flutter project CLI generator
 version: 1.0.0
-repository: https://github.com/my_org/my_repo
+repository: https://github.com/abdullah-soomro-blocship/ignite_kit_cli
 
 environment:
   sdk: ^3.8.0
