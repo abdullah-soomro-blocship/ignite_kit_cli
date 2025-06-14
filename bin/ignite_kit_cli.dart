@@ -1,3 +1,41 @@
+/// ignite_kit_cli
+///
+/// A Dart CLI tool to generate a new Flutter project from a template.
+///
+/// # Usage
+///
+/// Run the following command to create a new project:
+///
+/// ```sh
+/// dart run bin/ignite_kit_cli.dart create <project_name>
+/// ```
+///
+/// This will:
+/// - Copy the template from `lib/template` into a new directory named `<project_name>`
+/// - Replace all `{{project_name}}` placeholders in `.dart`, `.yaml`, `.md`, and `.json` files
+///
+/// # Maintainer
+/// [Your Name or Organization]
+///
+/// # Example
+///
+/// ```sh
+/// dart run bin/ignite_kit_cli.dart create my_app
+/// ```
+///
+/// # Output
+///
+/// - A new directory `my_app` with all template files and placeholders replaced.
+///
+/// # Features
+///
+/// - Simple CLI usage
+/// - Recursively copies template files
+/// - Replaces placeholders in supported files
+///
+
+library;
+
 import 'dart:io';
 import 'package:path/path.dart' as p;
 
